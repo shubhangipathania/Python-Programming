@@ -1,0 +1,15 @@
+s=set()
+print(type(s))
+s2={2,6,7,4,5,"Hello","Cat",True,56,100,"Mango","car",2}
+print(s2)
+s2.add(67)
+print(s2)
+lst=[11,3,41,66]
+s2.update(lst)
+print(s2)
+s2.remove(111)
+print(s2)
+s2.discard(1)
+print(s2)
+#s2.discard("gjjkj")
+#print(s2)

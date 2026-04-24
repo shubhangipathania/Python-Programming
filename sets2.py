@@ -1,0 +1,13 @@
+s1={1,2,3,4,5,6,7,8,89,785,4,3,34,4}
+s2={45,78,44,32,12,90,89,56}
+s3=s1.union(s2)
+print(s3)
+print(s2)
+print(s1)
+s4=s1.intersection(s2)
+print(s4)
+s1.intersection_update(s2)
+print(s1)
+print(s1.isdisjoint(s2))
+print(s1.issuperset(s2))
+print(s1.issubset(s2))

@@ -1,0 +1,12 @@
+with open('myfile.txt', 'r') as f:
+  # Read the first 10 bytes
+  data = f.read(10)
+  print(data)
+
+  # Save the current position
+  current_position = f.tell()
+  print(current_position)
+
+  # Seek to the saved position
+  f.seek(current_position)
+  print(f.tell())

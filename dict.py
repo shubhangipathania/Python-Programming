@@ -1,0 +1,14 @@
+marks={
+    "Riya":40,
+    "Siya":50,
+    "Tarun":60,
+    "Rohit":70,
+}
+print(marks)
+print(marks["Riya"])
+print(marks.get("Riya"))
+print(marks.keys())
+print(marks.values())
+print(marks.items())
+marks["Tarun"]=78
+print(marks["Tarun"])
